@@ -1,0 +1,86 @@
+[
+    {
+        "recipe_image": "https://i.ibb.co/wK6Zy8m/bambo.jpg",
+        "recipe_id": "01",
+        "name": "Spicy Bamboo Recipe",
+        "description": "Tasty bamboo shoots with a spicy twist, sure to add excitement to your mealtime. Just the right amount of heat for a satisfying dish that's easy to enjoy.",
+        "ingredients": [
+            "550 g chicken",
+            "120 ml soy sauce",
+            "200 g basil leaf",
+            "400 g mushroom"
+        ],
+        "time": "30 minutes",
+        "calories": "380 per serving"
+    },
+    {
+        "recipe_image": "https://i.ibb.co/Bq3kPDb/chiken-kabab.jpg",
+        "recipe_id": "02",
+        "name": "Chicken Kebab",
+        "description": "Grilled chicken on a stick, seasoned and juicy, perfect for a quick and tasty meal. Ideal for picnics or barbecues, these kebabs are sure to please everyone.",
+        "ingredients": [
+            "300 g chicken breast",
+            "250 g mushrooms",
+            "200 ml yogurt",
+            "50 g onion (chopped)"
+        ],
+        "time": "25 minutes",
+        "calories": "450 per serving"
+    },
+    {
+        "recipe_image": "https://i.ibb.co/9tF6Cxc/fish.jpg",
+        "recipe_id": "03",
+        "name": "Creamy Tuscan Salmon",
+        "description": "A luscious blend of tender salmon cooked in a creamy Tuscan-inspired sauce. With rich flavors and succulent fish, it's a decadent dish that's sure to please.",
+        "ingredients": [
+            "500 g salmon fillet",
+            "2 lemons (juiced)",
+            "4 cloves garlic (minced)",
+            "30 ml olive oil"
+        ],
+        "time": "20 minutes",
+        "calories": "300 per serving"
+    },
+    {
+        "recipe_image": "https://i.ibb.co/4dMK0Lr/noddlse.jpg",
+        "recipe_id": "04",
+        "name": "Shanghai Style Fried Noodles",
+        "description": "A savory delight of stir-fried noodles with a distinctive Shanghai flair. Packed with bold flavors and tender noodles, it's a satisfying choice for any noodle lover.",
+        "ingredients": [
+            "500 g noodles",
+            "1 liter vegetable broth",
+            "2 carrots (diced)",
+            "1 onion (chopped)"
+        ],
+        "time": "35 minutes",
+        "calories": "200 per serving"
+    },
+    {
+        "recipe_image": "https://i.ibb.co/ZzWX9ps/salad.jpg",
+        "recipe_id": "05",
+        "name": "Green Salad Recipes",
+        "description": "Fresh, colorful, and bursting with flavor, perfect for any meal.",
+        "ingredients": [
+            "800 g mixed greens",
+            "240 ml salad dressing",
+            "6 cherry tomatoes",
+            "1 cucumber (sliced)"
+        ],
+        "time": "10 minutes",
+        "calories": "150 per serving"
+    },
+    {
+        "recipe_image": "https://i.ibb.co/8YPkM52/download.jpg",
+        "recipe_id": "06",
+        "name": "Lemon Herb Roast Chicken",
+        "description": "A flavorful dish featuring tender chicken infused with zesty lemon and aromatic herbs.",
+        "ingredients": [
+            "2 kg whole chicken",
+            "2 lemons (sliced)",
+            "150 g mixed herbs",
+            "60 ml olive oil"
+        ],
+        "time": "60 minutes",
+        "calories": "220 per serving"
+    }
+]
