@@ -11,7 +11,7 @@
             "400 g mushroom"
         ],
         "time": "30 minutes",
-        "calories": "380 per serving"
+        "calories": "380 calories"
     },
     {
         "recipe_image": "https://i.ibb.co/Bq3kPDb/chiken-kabab.jpg",
@@ -25,7 +25,7 @@
             "50 g onion (chopped)"
         ],
         "time": "25 minutes",
-        "calories": "450 per serving"
+        "calories": "450 calories"
     },
     {
         "recipe_image": "https://i.ibb.co/9tF6Cxc/fish.jpg",
@@ -39,7 +39,7 @@
             "30 ml olive oil"
         ],
         "time": "20 minutes",
-        "calories": "300 per serving"
+        "calories": "300 calories"
     },
     {
         "recipe_image": "https://i.ibb.co/4dMK0Lr/noddlse.jpg",
@@ -53,7 +53,7 @@
             "1 onion (chopped)"
         ],
         "time": "35 minutes",
-        "calories": "200 per serving"
+        "calories": "200 calories"
     },
     {
         "recipe_image": "https://i.ibb.co/ZzWX9ps/salad.jpg",
@@ -67,7 +67,7 @@
             "1 cucumber (sliced)"
         ],
         "time": "10 minutes",
-        "calories": "150 per serving"
+        "calories": "150 calories"
     },
     {
         "recipe_image": "https://i.ibb.co/8YPkM52/download.jpg",
@@ -81,6 +81,6 @@
             "60 ml olive oil"
         ],
         "time": "60 minutes",
-        "calories": "220 per serving"
+        "calories": "220 calories"
     }
 ]
