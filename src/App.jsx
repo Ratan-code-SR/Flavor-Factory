@@ -1,10 +1,16 @@
+import Banner from "./components/BANNER/Banner"
+import Navigation from "./components/HEADER/Navigation"
 
 function App() {
 
 
   return (
     <>
-   <h1>hello developer</h1>
+    <header className="container mx-auto px-4">
+    <Navigation/>
+    <Banner/>
+    </header>
+ 
     </>
   )
 }
