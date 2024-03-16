@@ -32,8 +32,9 @@ const Product = () => {
 
     const handleRemoveButtonClick = (detail) => {
         const { time, calories } = detail
-        const isPreparing = prepare.filter((item) => item.recipe_id == detail.recipe_id)
-        if (isPreparing) {
+        const isPreparing = details.filter((item) => item.recipe_id !== detail.recipe_id)
+        setDetails(isPreparing)
+
             setTest([time, calories])
             setCookingCount(cookingCount + 1)
             if (count > 0) {
@@ -41,7 +42,7 @@ const Product = () => {
             }
             setPrepare([...prepare, detail])
         }
-    }
+    
     return (
         <section>
             <ToastContainer />
