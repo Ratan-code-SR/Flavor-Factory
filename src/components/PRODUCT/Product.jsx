@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Product = () => {
     const [products, setProducts] = useState([]);
     const [details, setDetails] = useState([]);
+    const [count, setCount] = useState(0)
     useEffect(() => {
         fetch('../../../public/recipe-data.json')
             .then(res => res.json())
@@ -17,12 +18,11 @@ const Product = () => {
     const handleClickButton = (product) => {
         const isBook = details.find(item => item.recipe_id == product.recipe_id)
         if (!isBook) {
+            setCount(count + 1)
             setDetails([...details, product])
         } else {
             toast.error(`Item is already booked`)
         }
-
-
     }
     return (
         <section>
@@ -42,7 +42,21 @@ const Product = () => {
                 <div className='flex flex-col w-2/5'>
 
                     <div className='border  rounded-lg'>
-                        <h1 className="text-center text-2xl font-bold my-2">Want to cook:  </h1>
+                        <h1 className="text-center text-2xl font-bold my-2">Want to cook: {count}  </h1>
+
+                        <div className="overflow-x-auto">
+                            <table className="table">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Name</th>
+                                        <th>Time</th>
+                                        <th>Calories</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+
                         {
 
                             details.map((item, index) => <Table1 key={index} item={item} index={index} />)

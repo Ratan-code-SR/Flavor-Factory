@@ -5,19 +5,9 @@ const Table1 = ({ item, index }) => {
     const { name, time, calories } = item;
     return (
         < >
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto bg-[#f8f8f8] m-2 rounded-lg">
                 <table className="table">
-                    {/* head */}
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th>Name</th>
-                            <th>Time</th>
-                            <th>Calories</th>
-                        </tr>
-                    </thead>
                     <tbody>
-                        {/* row 1 */}
                         <tr>
                             <th>{index + 1}</th>
                             <td>{name}</td>
