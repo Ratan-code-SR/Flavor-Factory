@@ -1,9 +1,9 @@
 
 
-const Table1 = ({ item, index,handleRemoveButtonClick }) => {
-    const { name, time, calories } = item;
+const Table2 = ({ detail, index }) => {
+    const { name, time, calories } = detail;
     return (
-        < >
+        <div>
             <div className="overflow-x-auto bg-[#f8f8f8] m-2 rounded-lg">
                 <table className="table">
                     <tbody>
@@ -12,15 +12,12 @@ const Table1 = ({ item, index,handleRemoveButtonClick }) => {
                             <td>{name}</td>
                             <td>{time}</td>
                             <td>{calories}</td>
-                            <td><button 
-                            onClick={()=>handleRemoveButtonClick(item)}
-                            className="btn btn-success rounded-full font-md">Preparing</button></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-        </>
+        </div>
     );
 };
 
-export default Table1;
+export default Table2;
