@@ -23,7 +23,7 @@ const Table1 = ({ item, index }) => {
                             <td>{name}</td>
                             <td>{time}</td>
                             <td>{calories}</td>
-                            <td><button className="btn btn-success">Preparing</button></td>
+                            <td><button className="btn btn-success rounded-full font-md">Preparing</button></td>
                         </tr>
 
                     </tbody>
