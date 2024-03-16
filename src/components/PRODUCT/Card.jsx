@@ -1,7 +1,7 @@
 import { IoMdTime } from "react-icons/io";
 import { FaFire } from "react-icons/fa";
-
-const Card = ({ product, handleClickButton }) => {
+import { ToastContainer, toast } from 'react-toastify';
+const Card = ({ product, handleClickButton}) => {
     const { recipe_image, name, description, time, calories, ingredients } = product;
 
     return (
@@ -22,7 +22,8 @@ const Card = ({ product, handleClickButton }) => {
 
                     </div>
                     <div className="card-actions justify-start">
-                        <button onClick={() => handleClickButton(product)} className="btn btn-success rounded-full p-1 px-4 text-sm">Want to Cook</button>
+                        <button onClick={() => handleClickButton(product)} 
+                        className="btn btn-success rounded-full p-1 px-4 text-sm">Want to Cook</button>
                     </div>
                 </div>
             </div>

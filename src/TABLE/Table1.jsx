@@ -1,28 +1,31 @@
-import React from 'react';
 
-const Table1 = () => {
+
+const Table1 = ({ item, index }) => {
+    // console.log(details);
+    const { name, time, calories } = item;
     return (
         < >
-            <div className="overflow-x-auto 'w-1/2'">
+            <div className="overflow-x-auto">
                 <table className="table">
                     {/* head */}
                     <thead>
                         <tr>
                             <th></th>
                             <th>Name</th>
-                            <th>Job</th>
-                            <th>Favorite Color</th>
+                            <th>Time</th>
+                            <th>Calories</th>
                         </tr>
                     </thead>
                     <tbody>
                         {/* row 1 */}
                         <tr>
-                            <th>1</th>
-                            <td>Cy Ganderton</td>
-                            <td>Quality Control Specialist</td>
-                            <td>Blue</td>
+                            <th>{index + 1}</th>
+                            <td>{name}</td>
+                            <td>{time}</td>
+                            <td>{calories}</td>
+                            <td><button className="btn btn-success">Preparing</button></td>
                         </tr>
-                       
+
                     </tbody>
                 </table>
             </div>
