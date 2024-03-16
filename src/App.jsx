@@ -10,7 +10,6 @@ function App() {
       <header className="container mx-auto px-4">
         <Navigation />
         <Banner />
-
         <Product />
       </header>
 
