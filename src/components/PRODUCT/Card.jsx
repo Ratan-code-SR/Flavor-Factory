@@ -6,11 +6,12 @@ const Card = ({ product, handleClickButton}) => {
 
     return (
         <>
-            <div className="card card-compact bg-base-100 border border-black rounded-lg p-2">
+            <div className="card card-compact bg-base-100 border shadow-xl rounded-lg p-2">
                 <figure><img className="md:h-[250px] w-full" src={recipe_image} alt="Spicy Bamboo Recipe" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{name}</h2>
                     <p>{description}</p>
+                    <hr />
                     <h1 className="font-bold text-lg">Ingredients:</h1>
                     <ul className='list-disc ml-5'>
                         {ingredients.map((item, index) => <li key={index}>{item}</li>)}

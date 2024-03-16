@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from './Card';
-import Table1 from '../../TABLE/Table1';
+import Table1 from '../TABLE/Table1'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -40,9 +40,14 @@ const Product = () => {
                 </div>
 
                 <div className='flex flex-col w-2/5'>
-                    {
-                        details.map((item, index) => <Table1 key={index} item={item} index={index} />)
-                    }
+
+                    <div className='border  rounded-lg'>
+                        <h1 className="text-center text-2xl font-bold my-2">Want to cook:  </h1>
+                        {
+
+                            details.map((item, index) => <Table1 key={index} item={item} index={index} />)
+                        }
+                    </div>
                 </div>
             </div>
         </section>
