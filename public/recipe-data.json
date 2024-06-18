@@ -14,7 +14,7 @@
         "calories": "380 calories"
     },
     {
-        "recipe_image": "https://i.ibb.co/Bq3kPDb/chiken-kabab.jpg",
+        "recipe_image": "https://i.ibb.co/xJqbgy0/salad.jpg",
         "recipe_id": "02",
         "name": "Chicken Kebab",
         "description": "Grilled chicken on a stick, seasoned and juicy, perfect for a quick and tasty meal. Ideal for picnics or barbecues, these kebabs are sure to please everyone.",
@@ -28,7 +28,7 @@
         "calories": "450 calories"
     },
     {
-        "recipe_image": "https://i.ibb.co/9tF6Cxc/fish.jpg",
+        "recipe_image": "https://i.ibb.co/xJqbgy0/salad.jpg",
         "recipe_id": "03",
         "name": "Creamy Tuscan Salmon",
         "description": "A luscious blend of tender salmon cooked in a creamy Tuscan-inspired sauce. With rich flavors and succulent fish, it's a decadent dish that's sure to please.",
@@ -42,7 +42,7 @@
         "calories": "300 calories"
     },
     {
-        "recipe_image": "https://i.ibb.co/4dMK0Lr/noddlse.jpg",
+        "recipe_image": "https://i.ibb.co/xJqbgy0/salad.jpg",
         "recipe_id": "04",
         "name": "Shanghai Style Fried Noodles",
         "description": "A savory delight of stir-fried noodles with a distinctive Shanghai flair. Packed with bold flavors and tender noodles, it's a satisfying choice for any noodle lover.",
